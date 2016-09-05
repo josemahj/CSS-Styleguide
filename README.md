@@ -112,7 +112,7 @@ Esta es la forma en la que un conjunto de reglas CSS deben estar escritas:
 - Colores HEX en minúsculas.
 - Colores HEX en formato corto cuando sea posible.
 
- Debido al uso de preprocesadores, se tomarán las siguientes pautas:
+Debido al uso de preprocesadores, se tomarán las siguientes pautas:
 
 - Las llamadas a _mixin_  deben ir antes de cualquier declaración.
 - Se ordenaran los atributos de manera lógica.
