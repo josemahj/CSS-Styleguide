@@ -3,7 +3,7 @@
 Una guía de estilo para escribir CSS sostenible y escalable
 
 ## Contenido
-]
+
 * [Introducción](#introducción)
   * [La importancia de una guía de estilo](#la-importancia-de-una-guía-de-estilo)
   * [Renuncia de responsabilidad](#renuncia-de-responsabilidad)
