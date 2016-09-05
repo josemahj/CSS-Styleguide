@@ -3,55 +3,55 @@
 Una guía de estilo para escribir CSS sostenible y escalable
 
 ## Contenido
-
-* Introducción
-  * La importancia de una guía de estilo
-  * Renuncia de responsabilidad
-  * Principios clave
-* Sintaxis y formato
-  * Conjunto de reglas CSS
-    * [ID](#ID)
-    * Shorthand
-    * !important
-  * Codificación
-  * Comillas
-  * Números
-    * Ceros
-    * Unidades
-    * Cálculos
-  * Números mágicos y absolutos
-  * Convenciones para los nombres
-    * JS hooks
-    * Internacionalización
-  * Selectores
-    * Selectores sobre-calificados
-    * Rendimiento de los selectores
-  * Uso de Media Queries
-  * Clases en HTML
-  * Preprocesadores
-  * Comentarios
-    * Tabla de contenidos
-    * Alto nivel
-    * Bajo nivel
-    * Código de etiquetas
-    * Comentarios en línea
-    * Extracción Comentarios
-* Arquitectura
-  * Componentes
-  * El Patrón 7-1
-    * Carpeta _abstracts_
-    * Carpeta _base_
-    * Carpeta _layout_
-    * Carpeta _components_
-    * Carpeta _pages_
-    * Carpeta _themes_
-    * Carpeta _vendor_
-    * Archivo principal
-  * El archivo de la vergüenza
-* Herramientas
-  * Bootstrap
-  * Autoprefixer
-  * Css Comb
+]
+* [Introducción](#introducción)
+  * [La importancia de una guía de estilo](#la-importancia-de-una-guía-de-estilo)
+  * [Renuncia de responsabilidad](#renuncia-de-responsabilidad)
+  * [Principios clave](#principios-clave)
+* [Sintaxis y formato](#sintaxis-y-formato)
+  * [Conjunto de reglas CSS](#conjunto-de-reglas-css)
+    * [ID](#id)
+    * [Shorthand](#shorthand)
+    * [!important](#important)
+  * [Codificación](#codificación)
+  * [Comillas](#comillas)
+  * [Números](#números)
+    * [Ceros](#ceros)
+    * [Unidades](#unidades)
+    * [Cálculos](#cálculos)
+  * [Números mágicos y absolutos](#números-mágicos-y-absolutos)
+  * [Convenciones para los nombres](#convenciones-para-los-nombres)
+    * [JS hooks](#js-hooks)
+    * [Internacionalización](#internacionalización)
+  * [Selectores](#selectores)
+    * [Selectores sobre-calificados](#selectores-sobre-calificados)
+    * [Rendimiento de los selectores](#rendimiento-de-los-selectores)
+  * [Uso de Media Queries](#uso-de-media-queries)
+  * [Clases en HTML](#clases-en-html)
+  * [Preprocesadores](#preprocesadores)
+  * [Comentarios](#comentarios)
+    * [Tabla de contenidos](#tabla-de-contenidos)
+    * [Alto nivel](#alto-nivel)
+    * [Bajo nivel](#bajo-nivel)
+    * [Código de etiquetas](#código-de-etiqutas)
+    * [Comentarios en línea](#comentarios-en-línea)
+    * [Extracción Comentarios](#extracción-comentarios)
+* [Arquitectura](#arquitectura)
+  * [Componentes](#componentes)
+  * [El Patrón 7-1](#el-patrón-7-1)
+    * [Carpeta _abstracts_](#carpeta-abstracts)
+    * [Carpeta _base_](#carpeta-base)
+    * [Carpeta _layout_](#carpeta-layout)
+    * [Carpeta _components_](#carpeta-components)
+    * [Carpeta _pages_](#carpeta-pages)
+    * [Carpeta _themes_](#carpeta-themeS)
+    * [Carpeta _vendor_](#carpeta-vendor)
+    * [Archivo principal](#archivo-principal)
+  * [El archivo de la vergüenza](#el-archivo-de-la-vergüenza)
+* [Herramientas](#herramientas)
+  * [Bootstrap](#bootstrap)
+  * [Autoprefixer](#autoprefixer)
+  * [Css Comb](#css-comb)
 
 # Introducción
 
