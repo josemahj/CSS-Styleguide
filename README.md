@@ -215,7 +215,7 @@ En resumen:
 
 - Los nombres son escritos en minúsculas
 - Palabras dentro de nombres están separadas por guión `(-)`
-- Los elemtnos están delimitados por un doble guión bajo `(__)`
+- Los elementos están delimitados por un doble guión bajo `(__)`
 - Los modificadores están delimitados por un doble guión `(--)`
 
 Aquí vemos como el objeto básico que estamos describiendo es una persona, y que un tipo diferente de persona podría ser una mujer. También podemos ver que las personas tienen manos; son sub-partes de las personas, y que hay variaciones, como izquierda y derecha.
