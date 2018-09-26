@@ -187,17 +187,17 @@ BEM es una metodología para nombrar y clasificar selectores CSS de manera que l
 
 La convención de nombre sigue este patrón:
 ```css
-.bloque {}
+.nombre-bloque {}
 
-.bloque__elemento {}
+.nombre-bloque__elemento {}
 
-.bloque--modificador {}
+.nombre-bloque--modificador {}
 ```
-'.bloque' representa el primer nivel de una abstracción o componente.
+'.nombre-bloque' representa el primer nivel de una abstracción o componente.
 
-'.bloque\_\_element' representa un descendente de '.bloque' que se ayuda de '.bloque' como un conjunto.
+'.nombre-bloque\_\_element' representa un descendente de '.nombre-bloque' que se ayuda de '.nombre-bloque' como un conjunto.
 
-'.bloque--modificador' representa un estado diferente de '.bloque'.
+'.nombre-bloque--modificador' representa un estado diferente de '.nombre-bloque'.
 
 Una analogía del funcionamiento de las clases BEM sería:
 ```css
@@ -211,6 +211,13 @@ Una analogía del funcionamiento de las clases BEM sería:
 
 .persona__mano--derecha {}
 ```
+En resumen:
+
+- Los nombres son escritos en minúsculas
+- Palabras dentro de nombres están separadas por guión `(-)`
+- Los elemtnos están delimitados por un doble guión bajo `(__)`
+- Los modificadores están delimitados por un doble guión `(--)`
+
 Aquí vemos como el objeto básico que estamos describiendo es una persona, y que un tipo diferente de persona podría ser una mujer. También podemos ver que las personas tienen manos; son sub-partes de las personas, y que hay variaciones, como izquierda y derecha.
 
 Ahora podemos nombrar nuestros selectores basado en sus objetos base y podemos también comunicar que función tiene el selector; es un sub-componente ('\_\_') o una variación ('--')?
